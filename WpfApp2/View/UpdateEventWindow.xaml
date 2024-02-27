@@ -1,0 +1,207 @@
+﻿<Window x:Class="WpfApp2.View.UpdateEventWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.View"
+        xmlns:val="clr-namespace:WpfApp2.Validations"
+        mc:Ignorable="d"
+        Title="UpdateEventWindow" Height="750" Width="430">
+    <Grid>
+
+        <Label Content="Id:"  Margin="65,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15" />
+        <TextBox HorizontalAlignment="Left" Margin="65,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"  x:Name="EventIdBinding" IsReadOnly="True" Foreground="Gray">
+            <TextBox.Text>
+                <Binding Path="IdValidation" UpdateSourceTrigger="LostFocus">
+                    <Binding.ValidationRules>
+                        <val:IdValidation ValidationStep="RawProposedValue"/>
+
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+
+        <Label Content="Name:"  Margin="65,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="65,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"  x:Name="EventNameBinding">
+            <TextBox.Text>
+                <Binding Path="NameValidation" UpdateSourceTrigger="LostFocus">
+                    <Binding.ValidationRules>
+                        <val:NameValidation ValidationStep="RawProposedValue"/>
+
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <Label Content="Type:"  Margin="65,110,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15" />
+        <ComboBox HorizontalAlignment="Left" Margin="65,135,0,0"  VerticalAlignment="Top" Width="300"  x:Name="TypeBinding" />
+
+        <Label Content="Organization fee:"  Margin="65,160,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="65,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"  x:Name="OrganizationFeeBinding">
+            <TextBox.Text>
+                <Binding Path="OrganizationFeeValidation" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:StringToDoubleValidation ValidationStep="RawProposedValue"/>
+
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <Label Content="Capacity: "  Margin="65,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <ComboBox HorizontalAlignment="Left" Margin="65,235,0,0"  VerticalAlignment="Top" Width="300"  x:Name="CapacityBinding" />
+
+
+        <Label Content="State:"  Margin="65,260,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <ComboBox HorizontalAlignment="Left" Margin="65,285,0,0"  VerticalAlignment="Top" Width="300"  x:Name="StateBinding"/>
+
+        <Label Content="City:"  Margin="65,310,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <ComboBox HorizontalAlignment="Left" Margin="65,335,0,0"  VerticalAlignment="Top" Width="300"  x:Name="CityBinding"/>
+
+        <Label Content="Ticket price: "  Margin="65,360,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="65,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"  x:Name="TicketPriceBinding">
+            <TextBox.Text>
+                <Binding Path="TicketValidation" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:StringToDoubleValidation ValidationStep="RawProposedValue"/>
+
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <Label Content="Date: "  Margin="65,410,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <DatePicker HorizontalAlignment="Left" Margin="65,435,0,0"  VerticalAlignment="Top" Width="300"  x:Name="DateBinding"/>
+
+        <Label Content="Humanitarian"  Margin="65,460,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <CheckBox HorizontalAlignment="Left" Margin="65,485,0,0"  VerticalAlignment="Top" Width="300"  x:Name="HumanitarianBinding"/>
+
+        <Label Content="Description"  Margin="65,510,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="65,535,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"  x:Name="DescriptionBinding"  AcceptsReturn="True"
+             VerticalScrollBarVisibility="Visible" Height="40"/>
+
+        <Label Content="Tag"  Margin="65,580,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="15"/>
+        <ComboBox HorizontalAlignment="Left" Margin="65,605,0,0"  VerticalAlignment="Top" Width="300"  x:Name="TagBinding"/>
+
+        <Button Content="Submit" Name="Submit" HorizontalAlignment="Left" Margin="65,640,0,0" VerticalAlignment="Top" Width="300" Click="Submit_Click" Command="Save">
+            <Button.CommandBindings>
+                <CommandBinding Command="Save" CanExecute="CommandBinding_CanExecute"/>
+            </Button.CommandBindings>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="IsEnabled" Value="False"/>
+                    <Style.Triggers>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding Path=(Validation.HasError), ElementName=EventIdBinding}" Value="False"/>
+                                <Condition Binding="{Binding Path=(Validation.HasError), ElementName=EventNameBinding}" Value="False"/>
+                                <Condition Binding="{Binding Path=(Validation.HasError), ElementName=OrganizationFeeBinding}" Value="False"/>
+                                <Condition Binding="{Binding Path=(Validation.HasError), ElementName=CapacityBinding}" Value="False"/>
+                                <Condition Binding="{Binding Path=(Validation.HasError), ElementName=TicketPriceBinding}" Value="False"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter Property="IsEnabled" Value="True"/>
+                        </MultiDataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+
+        <Button  HorizontalAlignment="Left" Margin="5,680,0,0" VerticalAlignment="Top" Click="CreateEventTagWindow" RenderTransformOrigin="0.14,4.795" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/tag.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="51,680,0,0" VerticalAlignment="Top" Click="CreateEventTypeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/type.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="97.5,680,0,0" VerticalAlignment="Top" Click="CreateEventWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/addEvent.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="249,680,0,0" VerticalAlignment="Top" Click="AllEventsWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/dataGrid.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="190,670,0,0" VerticalAlignment="Top" Click="HomeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/home.png " Height="40" Width="40"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="385,680,0,0" VerticalAlignment="Top" Click="HelpWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/help.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="346,680,0,0" VerticalAlignment="Top" Click="Delete" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/delete.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="297.5,680,0,0" VerticalAlignment="Top" Click="EditWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/edit.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="144,680,0,0" VerticalAlignment="Top" Click="MapWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/map.png " Height="30" Width="30"/>
+        </Button>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="1" Margin="0,670,0,0" VerticalAlignment="Top" Width="430"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,77 @@
+﻿<Window x:Class="WpfApp2.View.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.View"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="750" Width="430">
+
+    <Window.Resources>
+        <Style x:Key="TitleText" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+
+
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,40,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Adding event to map:</TextBlock>
+        <TextBlock  Margin="10,60,0,0" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to add event to map, drag that event to map and drop it.</TextBlock>
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,80,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Delete existing event:</TextBlock>
+        <TextBlock  Margin="10,100,0,0" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top">if you want to delete event from table<LineBreak/> select them and press again button to delete.</TextBlock>
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,130,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Update existing event:</TextBlock>
+        <TextBlock  Margin="10,150,0,0" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to update information about some event press that event<LineBreak/> and then press button to update event.</TextBlock>
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,180,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Search and filter event:</TextBlock>
+        <TextBlock  Margin="10,200,0,0" Height="66" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to find specific event on map or in table go to search field<LineBreak/>  and type something about that particular event <LineBreak/> like his name, description, capacity<LineBreak/> or you can use filter and fine all event with that name,capacity,description.</TextBlock>
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,260,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Remove event from map:</TextBlock>
+        <TextBlock  Margin="10,280,0,0" Height="96" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to add event on map or remove it<LineBreak/>  press that event and drag it to location where you want it <LineBreak/> then release it,<LineBreak/>
+            if you want additional information press that event with right click<LineBreak/> if you on map,<LineBreak/>
+            or with double left click if you on table.</TextBlock>
+       
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,376,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Delete existing tag:</TextBlock>
+        <TextBlock  Margin="10,400,0,0" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to delete tag from table<LineBreak/> select them and press again button to delete.</TextBlock>
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,430,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Update existing tag:</TextBlock>
+        <TextBlock  Margin="10,450,0,0" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to update information about some tag press that tag<LineBreak/> and then press button to update tag.</TextBlock>
+        
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,480,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Delete existing type:</TextBlock>
+        <TextBlock  Margin="10,500,0,0" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to delete type from table<LineBreak/> select them and press again button to delete.</TextBlock>
+        <TextBlock Style="{StaticResource TitleText}" HorizontalAlignment="Left" Margin="10,530,0,0" Foreground="Red" Height="30" VerticalAlignment="Top">Update existing type:</TextBlock>
+        <TextBlock  Margin="10,550,0,0" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top">If you want to update information about some type press that type<LineBreak/> and then press button to update type.</TextBlock>
+
+
+        <Button  HorizontalAlignment="Left" Margin="5,680,0,0" VerticalAlignment="Top" Click="CreateEventTagWindow" RenderTransformOrigin="0.14,4.795" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/tag.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="51,680,0,0" VerticalAlignment="Top" Click="CreateEventTypeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/type.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="97.5,680,0,0" VerticalAlignment="Top" Click="CreateEventWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/addEvent.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="249,680,0,0" VerticalAlignment="Top" Click="AllEventsWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/dataGrid.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="190,670,0,0" VerticalAlignment="Top" Click="HomeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/home.png " Height="40" Width="40"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="385,680,0,0" VerticalAlignment="Top" Click="HelpPopUpWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/help.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="346,680,0,0" VerticalAlignment="Top" Click="Delete" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/delete.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="297.5,680,0,0" VerticalAlignment="Top" Click="EditWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/edit.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="144,680,0,0" VerticalAlignment="Top" Click="MapWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/map.png " Height="30" Width="30"/>
+        </Button>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="1" Margin="0,670,0,0" VerticalAlignment="Top" Width="430"/>
+
+    </Grid>
+
+
+</Window>

@@ -1,0 +1,86 @@
+﻿<Window x:Class="WpfApp2.View.MapWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.View"
+        mc:Ignorable="d"
+        Title="MapWindow" Height="750" Width="430">
+    <Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,31,0,0" Width="430" Height="640">
+            <Grid.RowDefinitions>
+                <RowDefinition  />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320"/>
+                <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+
+            <ListView Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Events}" PreviewMouseLeftButtonDown="ListView_PreviewMouseLeftButtonDown" MouseMove="ListView_MouseMove" x:Name="ListBox" HorizontalAlignment="Right"  VerticalAlignment="Top"   Margin="0,0,0,0" Height="640" Drop="ListBox_Drop" DragOver="ListBox_DragOver" Width="110" AllowDrop="True" PreviewMouseRightButtonDown="ListBox_PreviewMouseRightButtonDown">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <Image Width="20" Height="20" Source="{Binding ImagePath}" />
+                            <TextBlock Text="{Binding Name}"  />
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Canvas  x:Name="canvas" Grid.Column="0" Grid.Row="0"
+                Background="Transparent" AllowDrop="True" Height="640" Width="320"
+                Drop="Image_Drop" DragOver="Image_DragOver"  PreviewMouseLeftButtonDown="canvas_PreviewMouseLeftButtonDown" MouseMove="canvas_MouseMove" PreviewMouseRightButtonDown="canvas_PreviewMouseRightButtonDown">
+                <Image Stretch="Fill" Height="640" Width="320" Grid.Column="0" Grid.Row="0" AllowDrop="True"  Source="/WpfApp2;component/Image/worldMap.png "  x:Name="image"  />
+            </Canvas>
+
+
+            <ListView  ItemsSource="{Binding EventsOnMap}" PreviewMouseLeftButtonDown="ListViewOnMap_PreviewMouseLeftButtonDown" MouseMove="ListViewOnMap_MouseMove" x:Name="ListViewOnMap" HorizontalAlignment="Right"  VerticalAlignment="Top"   Margin="0,0,0,0"  Width="0" Height="0" >
+                <ListView.ItemTemplate >
+                    <DataTemplate>
+                        <WrapPanel>
+                            <Image Width="0" Height="0" Source="{Binding ImagePath}"  />
+                            <TextBlock Text="{Binding Name}"  Width="0" Height="0" />
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+        <Label Content="Filter:"  FontSize="13" Width="40" Height="25" Margin="5,1,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="56,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  x:Name="FilterBinding" TextChanged="FilterBinding_TextChanged" />
+
+
+
+
+     
+        <Button  HorizontalAlignment="Left" Margin="5,680,0,0" VerticalAlignment="Top" Click="CreateEventTagWindow" RenderTransformOrigin="0.14,4.795" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/tag.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="51,680,0,0" VerticalAlignment="Top" Click="CreateEventTypeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/type.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="97.5,680,0,0" VerticalAlignment="Top" Click="CreateEventWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/addEvent.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="249,680,0,0" VerticalAlignment="Top" Click="AllEventsWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/dataGrid.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="190,670,0,0" VerticalAlignment="Top" Click="HomeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/home.png " Height="40" Width="40"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="385,680,0,0" VerticalAlignment="Top" Click="HelpWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/help.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="346,680,0,0" VerticalAlignment="Top" Click="Delete" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/delete.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="297.5,680,0,0" VerticalAlignment="Top" Click="EditWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/edit.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="144,680,0,0" VerticalAlignment="Top" Click="MapWindowWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/map.png " Height="30" Width="30"/>
+        </Button>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="1" Margin="0,670,0,0" VerticalAlignment="Top" Width="430"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,156 @@
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEvent.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventType.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventTag.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEvent.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventTag.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventType.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AllEvents.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AllEvents.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\SearchWindow.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\SearchWindow.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AboutEvent.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AboutEvent.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateEventWindow.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateEventWindow.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\DeleteConfirm.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\DeleteConfirm.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTags.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTypes.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTags.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTypes.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateTag.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateTag.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateType.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateType.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpPopUpWindow.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpWindow.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpPopUpWindow.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpWindow.baml
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\MapWindow.g.cs
+C:\Users\Home\OneDrive - Univerzitet u Novom Sadu\Desktop\HCI Projekat\WpfApp2\WpfApp2\obj\Debug\View\MapWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\DocumentFormat.OpenXml.dll
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\DocumentFormat.OpenXml.xml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.SuggestedBindingRedirects.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AboutEvent.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AllEvents.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTags.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTypes.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEvent.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventTag.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventType.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\DeleteConfirm.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpPopUpWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\MapWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\SearchWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateEventWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateTag.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateType.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AboutEvent.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AllEvents.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTags.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\AllTypes.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEvent.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventTag.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\CreateEventType.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\DeleteConfirm.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpPopUpWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\HelpWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\MapWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\SearchWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateEventWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateTag.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\View\UpdateType.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\WpfApp2.exe
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\DocumentFormat.OpenXml.dll
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\DocumentFormat.OpenXml.xml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.csproj.SuggestedBindingRedirects.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AboutEvent.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AllEvents.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AllTags.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AllTypes.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\CreateEvent.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\CreateEventTag.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\CreateEventType.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\DeleteConfirm.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\HelpPopUpWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\HelpWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\MapWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\SearchWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\UpdateEventWindow.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\UpdateTag.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\UpdateType.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\App.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\MainWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AboutEvent.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AllEvents.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AllTags.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\AllTypes.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\CreateEvent.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\CreateEventTag.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\CreateEventType.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\DeleteConfirm.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\HelpPopUpWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\HelpWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\MapWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\SearchWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\UpdateEventWindow.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\UpdateTag.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\View\UpdateType.baml
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.exe
+D:\FAKS\TRECA GODINA\DRUGI SEMESTAR\HCI projekat\WpfApp2\World-event-map\WpfApp2\obj\Debug\WpfApp2.pdb

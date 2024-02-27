@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfApp2.View.AllTags"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.View"
+        mc:Ignorable="d"
+        Title="AllTags" Height="750" Width="430">
+    <Grid>
+
+        <DataGrid x:Name="AllTagsBinding" IsReadOnly="true" CanUserResizeColumns="True" CanUserResizeRows="False" AutoGenerateColumns="False" VerticalGridLinesBrush="WhiteSmoke" SelectedItem="{Binding selectedTag, Mode=TwoWay}"  Margin="0,0,0,40" RowHeight="30">
+            <DataGrid.Columns  >
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="Auto"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="Auto" />
+                <DataGridTextColumn Header="Color" Binding="{Binding Color}" Width="Auto"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding TagDescription}" Width="Auto" />
+                <DataGridTemplateColumn Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Background="Transparent" Click="EditWindow" BorderThickness="0" >
+                                <Image Source="/WpfApp2;component/Image/edit.png " Height="18" Width="18"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Background="Transparent" Click="Delete" BorderThickness="0" >
+                                <Image Source="/WpfApp2;component/Image/delete.png " Height="18" Width="18"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+        <Button  HorizontalAlignment="Left" Margin="5,680,0,0" VerticalAlignment="Top" Click="CreateEventTagWindow" RenderTransformOrigin="0.14,4.795" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/tag.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="51,680,0,0" VerticalAlignment="Top" Click="CreateEventTypeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/type.png " Height="30" Width="30"/>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="97.5,680,0,0" VerticalAlignment="Top" Click="CreateEventWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/addEvent.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="249,680,0,0" VerticalAlignment="Top" Click="AllEventsWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/dataGrid.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="190,670,0,0" VerticalAlignment="Top" Click="HomeWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/home.png " Height="40" Width="40"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="385,680,0,0" VerticalAlignment="Top" Click="HelpWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/help.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="346,680,0,0" VerticalAlignment="Top" Click="Delete" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/delete.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="297.5,680,0,0" VerticalAlignment="Top" Click="EditWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/edit.png " Height="30" Width="30"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="144,680,0,0" VerticalAlignment="Top" Click="MapWindow" Background="Transparent" BorderThickness="0">
+            <Image Source="/WpfApp2;component/Image/map.png " Height="30" Width="30"/>
+        </Button>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="1" Margin="0,670,0,0" VerticalAlignment="Top" Width="430"/>
+
+
+
+    </Grid>
+</Window>
